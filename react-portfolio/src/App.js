@@ -15,6 +15,11 @@ import AboutPage from './pages/AboutPage';
 import ResumePage from './pages/ResumePage';
 // Components
 import Navbar from './components/Navbar'
+import ConnectTutors from './pages/Projects/ConnectTutors';
+import VocabMi from './pages/Projects/VocabMi';
+import KP2021 from './pages/Projects/KP2021';
+import DTC from './pages/Projects/DTC'
+
 function App() {
   return (
     <Router>
@@ -25,6 +30,14 @@ function App() {
         <Route path="/Resume" component={<ResumePage/>}/>
         <Route path="/404" component={<NotFoundPage/>}/>
         {/* <Redirect to="/404"/> */}
+
+        {/* // Pages */}
+        <Route path="/ConnectTutor" element={<ConnectTutors/>}/>
+        <Route path="/VocabMi" element={<VocabMi/>}/>
+        <Route path="/KP2021" element={<KP2021/>}/>
+        <Route path="/DTC" element={<DTC/>}/>
+        
+
       </Routes>
     </Router>
     

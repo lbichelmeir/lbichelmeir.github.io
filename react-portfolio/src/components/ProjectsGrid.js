@@ -7,7 +7,7 @@ function ProjectsGrid() {
     return (
         <div className="ProjectsGrid">
             {projects.map((item) => (
-                    <Project key={item.id} img={item.img} title={item.title} description={item.description}/>
+                    <Project key={item.id} img={item.image} title={item.title} description={item.description} link={item.link}/>
                 ))}
             
         </div>

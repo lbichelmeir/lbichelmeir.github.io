@@ -1,27 +1,31 @@
 export const projects = [
     {
         id: 1,
-        img:"./components/img/sample.png",
+        image:"/images/sample.png",
         title: "Redesigning Connect Tutors Website",
-        description:"PRODUCT DESIGN • VOLUNTEER"
+        description:"PRODUCT DESIGN • VOLUNTEER",
+        link: "/ConnectTutor"
     
     },
     {
         id: 2,
-        img:"./components/img/sample.png",
+        image:"/images/sample.png",
         title: "VocabMi - In Progress",
-        description: "PASSION PROJECT"
+        description: "PASSION PROJECT",
+        link: "/VocabMi"
     },
     {
         id: 3,
-        img:"./components/img/sample.png",
+        image:"/images/sample.png",
         title: "Kleiner Perkins 2021",
-        description: "DESIGN CHALLENGE"
+        description: "DESIGN CHALLENGE",
+        link: "/KP2021"
     },
     {
         id: 4,
-        img:"./components/img/sample.png",
+        image:"/images/sample.png",
         title: "DTC",
-        description: "CLASS PROJECT"
+        description: "CLASS PROJECT",
+        link: "/DTC"
     },
 ];
