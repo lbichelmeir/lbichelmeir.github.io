@@ -6,6 +6,9 @@ import "react-alice-carousel/lib/alice-carousel.css";
 function ConnectTutors() {
     return (
         <div className="case-study">
+            <div className="case-study-image-div">
+                <img src ="/images/projects/ConnectTutor/ConnectTutorsTitle.svg" className="case-study-image" />
+                </div>
             <div className="project-overview">
                 <div>
                     <h1 className="title">Connect Tutors</h1>
@@ -98,11 +101,12 @@ function ConnectTutors() {
                 <img src ="/images/projects/ConnectTutor/Semi-informedStudent.svg" className="persona"/>
                 <img src ="/images/projects/ConnectTutor/UninformedStudent.svg" className="persona"/>
                 <img src ="/images/projects/ConnectTutor/Parent.svg" className="persona"/>
-                </div>
-
-                <div className="graphic-div">
                 <img src ="/images/projects/ConnectTutor/UserJourney.svg" className="graphic"/>
                 </div>
+
+                {/* <div className="graphic-div">
+                <img src ="/images/projects/ConnectTutor/UserJourney.svg" className="graphic"/>
+                </div> */}
 
                 {/* <AliceCarousel autoPlay autoPlayInterval="3000">
                     <img src ="/images/projects/ConnectTutor/Semi-informedStudent.svg" className="sliderimg"/>
@@ -133,11 +137,19 @@ function ConnectTutors() {
                     <p> 04. PROTOTYPING</p>
                 </div>
                 <h3 className="header"> Wireframes & Usability Testing </h3>
-                <p> Through usability testing and meetings with the client, we continued to refine our wireframe. </p>
+                <p> Through usability testing and meetings with the client, we continued to refine our wireframe
+                    and develop our style guide. </p>
 
-                {/* MID-WIREFRAME
-                HIGH-FI WIREFRAME
-                USABILITY TESTING INSIGHTS */}
+                <div className="graphic-div">   
+                <img src ="/images/projects/ConnectTutor/LowFi.svg" className="graphic"/>
+                <img src ="/images/projects/ConnectTutor/HighFi.svg" className="graphic"/>
+                </div>
+
+                {/* <p><b>Style Guide</b></p> */}
+                <div className="graphic-div">   
+                <img src ="/images/projects/ConnectTutor/StyleGuide.png" className="graphic"/>
+                </div>
+
 
                 <div className="subheader"> 
                     <p> 05. SOLUTION</p>
@@ -158,7 +170,9 @@ function ConnectTutors() {
                     <li>Footer</li>
                 </ul>
 
-                {/* PHOTO  */}
+                <div className="graphic-div">   
+                <img src ="/images/projects/ConnectTutor/Access.png" className="graphic"/>
+                </div>
 
                 <p> <b> 2. Establish Trust </b></p>
                 <p> We included multiple sections on the website to provide both students and parents with reasons for the nonprofit’s credibility. 
@@ -173,11 +187,24 @@ function ConnectTutors() {
                     <li>Contact</li>
                 </ul>
 
-                {/* PHOTO */}
+                <div className="graphic-div">   
+                <img src ="/images/projects/ConnectTutor/EstablishTrust.png" className="graphic"/>
+                </div>
 
-                <h4>Secondary Goal: Limited Access to Materials</h4>
+                <h4>Secondary Goal: Increase in Tutor Apps & Ease of Access to Training Materials</h4>
+                <p>To increase tutor applications, we did this in 2 ways: </p>
+                <p> <b> 1. Provide Access to Application </b></p>
+                <p>We incorporated the tutor application within the website in Get Involved > Become a Tutor.</p>
+                <div className="graphic-div">   
+                <img src ="/images/projects/ConnectTutor/TutorAccess.png" className="graphic"/>
+                </div>
+                
+
+                <p> <b> 2. Limited Access to Materials </b></p>
                 <p>We created a password-protected page where all materials would be stored for reference.</p>
-                {/* PHOTO */}
+                <div className="graphic-div">   
+                <img src ="/images/projects/ConnectTutor/LimitedAccess.png" className="graphic"/>
+                </div>
 
                 <h4>Extra Goal: Increase Monetary Donations</h4>
                 <p>To increase monetary donations, we did this in 2 ways:</p>
@@ -185,12 +212,18 @@ function ConnectTutors() {
                 <p> 
                     We created a designated ‘Donate’ page, accessible through the navigation bar.
                 </p>
+                <div className="graphic-div">   
+                <img src ="/images/projects/ConnectTutor/DonateAccess.png" className="graphic"/>
+                </div>
                 <p> <b> 2. Proof of Impact </b></p>
                 <p> 
                 To show that donations are not only needed, but also impactful, we associated dollar amounts to numeric outcomes. 
                 For example, a $25 donation supports 1 student.
                 </p>
-                {/* PHOTO */}
+                <div className="graphic-div">   
+                <img src ="/images/projects/ConnectTutor/ImpactProof.png" className="graphic"/>
+                </div>
+               
                 
                 <div className="subheader">
                 <p> 06. INSIGHTS</p>

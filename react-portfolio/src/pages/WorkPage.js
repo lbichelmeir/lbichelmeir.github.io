@@ -9,7 +9,7 @@ import ConnectTutors from './Projects/ConnectTutors'
 import VocabMi from './Projects/VocabMi'
 function WorkPage() {
     return (
-        <div>
+        <div className="WorkPage">
             {/* <h1> work</h1> */}
             <WorkBlurb/>
             <ProjectsGrid/>

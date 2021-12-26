@@ -1,3 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 /* ---------------- RESETS ---------------- */
 html {
   -webkit-box-sizing: border-box;
@@ -8,6 +10,9 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'DM Sans', sans-serif;
+  color: #4A5043;
+
 }
 
 *, *:before, *:after {
@@ -17,6 +22,10 @@ html {
 
 .App {
   text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  color: #4A5043;
+  background-color: #FFFEFA;
+
 }
 
 /* ----------- NAVBAR ----------- */
@@ -27,6 +36,10 @@ html {
   align-items: center;
   justify-content: space-between;
   margin-left: 2vh;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+
+  
 }
 
 .navbar a:hover {
@@ -54,17 +67,22 @@ html {
   font-size: 15px;
   padding: 5px 18px;
   padding-right: 5px;
-  color: black;
+  /* color: black; */
+  color: #4A5043;
 }
 
 /* ----------- WORKPAGE ----------- */
-
+.WorkPage {
+  color: #4A5043;
+}
 .WorkBlurb {
-  background-color: #fff3b0;
+  background-color: #FDF5E7;
+  border-radius: 15px;
+  /* opacity: 10%; */
   /* align-items: center; */
   /* justify-content: center; */
   margin: auto;
-  width: 50vh;
+  width: 55vh;
   display: flex;
 
 }
@@ -74,7 +92,47 @@ html {
   /* align-items: center;  */
   /* justify-content: center; */
   /* width: 50vh; */
+  font-family: 'Lora', serif;
+  font-weight: 450;
+  font-size: 15px;
+  padding: 20px 30px;
+}
 
+
+.WorkBlurbText p {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.WorkBlurbText-text {
+  padding-bottom: 6px;
+  /* margin-bottom: 20px; */
+}
+.WorkBlurbText span {
+  padding-bottom: 20px;
+}
+
+
+.WorkBlurbText-work {
+  color:#F6BD60;
+}
+
+.WorkBlurb button {
+  border: none ;
+  font-family: 'DM Sans', sans-serif;
+  color: white;
+  border-radius: 3px;
+  font-size: 15px;
+  padding: 2px 10px;
+  /* padding-top: 3px; */
+}
+
+.EmailButton {
+  background-color: #F6BD60 ;
+}
+
+.ResumeButton {
+  background-color:#F5CAC3;
 }
 
 .ProjectsGrid {
@@ -102,6 +160,10 @@ img {
   border-style: dashed;
   
   padding: 20px 50px;
+  color: #4A5043;
+  font-family: 'Lora', serif;
+  /* font-family: 'DM Sans', sans-serif; */
+  
   /* margin: auto; */
 
 }
@@ -111,7 +173,9 @@ img {
 }
 
 .project-details p {
-  margin-top: 4px;
+  margin-top: 1px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
 }
 
 a {
@@ -119,7 +183,8 @@ a {
   /* font-size: 15px; */
   /* padding: 5px 18px;
   padding-right: 5px; */
-  color: black;
+  /* color: black; */
+  color: #4A5043;
 }
 
 
@@ -128,6 +193,9 @@ a {
   margin: 0 auto;
   margin-left: 3vh;
   margin-right: 3vh;
+  color: #4A5043;
+  font-family: 'DM Sans', sans-serif;
+
   /* margin-bottom: 0; */
 }
 .project-overview {
@@ -136,7 +204,9 @@ a {
   column-gap: 6vh;
 
 }
-
+.title {
+  font-family: 'Lora', serif;
+}
 .header {
   margin-bottom: 0;
 }
@@ -148,7 +218,9 @@ a {
 
 .subheader {
   margin-top: 8vh;
-  border-bottom: 1.5vh solid antiquewhite;
+  border-bottom: 1.5vh solid #FBEAE3;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .subheader p {
@@ -175,7 +247,7 @@ a {
 }
 }
 .graphic-div {
-  max-width: 600px;
+  /* max-width: 600px; */
   margin: auto;
 }
 .graphic {
