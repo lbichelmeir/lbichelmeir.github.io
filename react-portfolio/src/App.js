@@ -19,16 +19,18 @@ import ConnectTutors from './pages/Projects/ConnectTutors';
 import VocabMi from './pages/Projects/VocabMi';
 import KP2021 from './pages/Projects/KP2021';
 import DTC from './pages/Projects/DTC'
+import Footer from './components/Footer';
 
 function App() {
   return (
+    <div className="App" >
     <Router>
       <Navbar/>
       <Routes>
         <Route path="/" element={<WorkPage/>}/>
-        <Route path="/About" component={<AboutPage/>}/>
-        <Route path="/Resume" component={<ResumePage/>}/>
-        <Route path="/404" component={<NotFoundPage/>}/>
+        <Route path="/About" element={<AboutPage/>}/>
+        <Route path="/Resume" element={<ResumePage/>}/>
+        <Route path="/404" element={<NotFoundPage/>}/>
         {/* <Redirect to="/404"/> */}
 
         {/* // Pages */}
@@ -39,7 +41,10 @@ function App() {
         
 
       </Routes>
+      <Footer/>
     </Router>
+    </div>
+    
     
   );
 }

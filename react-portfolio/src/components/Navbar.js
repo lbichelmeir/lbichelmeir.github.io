@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <nav className="navbar">
             <div class="navname"> 
-                <p> 🌻     Lauren Bichelmeir </p>
+                <p><Link to="/"> 🌻     Lauren Bichelmeir </Link></p>
             </div>
             <div class="navlinks">
                 <ul>

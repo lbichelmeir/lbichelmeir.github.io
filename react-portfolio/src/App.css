@@ -7,11 +7,12 @@ html {
   /* background: linear-gradient(to right top, #d0d1ff, #c8e7ff); */
   /* font-family: 'Poppins', sans-serif; */
 
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
   font-family: 'DM Sans', sans-serif;
   color: #4A5043;
+  background-color: #FFFEFA;
 
 }
 
@@ -21,16 +22,16 @@ html {
 }
 
 .App {
-  text-align: center;
   font-family: 'DM Sans', sans-serif;
-  color: #4A5043;
   background-color: #FFFEFA;
+
+    /* color: #4A5043; */
 
 }
 
 /* ----------- NAVBAR ----------- */
 .navbar {
-  width: 80vw;
+  /* width: 80vw; */
   margin-top: 1.5vh;
   display: flex;
   align-items: center;
@@ -38,18 +39,23 @@ html {
   margin-left: 2vh;
   font-family: 'Lora', serif;
   font-weight: 400;
+  position: sticky;
+  top: 0;
+  background-color: #FFFEFA;
+  /* border-bottom: 2px solid #FFFBF4; */
+  /* border-bottom: 8px solid #FDF5E7; */
 
   
 }
 
-.navbar a:hover {
+.navlinks a:hover {
   border-bottom: 3px solid #fff3b0;
 }
-.navbar a.active {
+.navlinks a.active {
   border-bottom: 3px solid #FDCA40;
 }
 
-.navbar .active:after {
+.navlinks .active:after {
   content: ".";
 }
 
@@ -69,6 +75,33 @@ html {
   padding-right: 5px;
   /* color: black; */
   color: #4A5043;
+}
+
+/* ----------- FOOTER ----------- */
+.footer {
+  font-family: 'Lora', serif;
+  /* color: #F6BD60; */
+  color: #BDB6AA;
+  /* background-color:#FFFBF4 ; */
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.footer h3 {
+  /* padding-bottom: 0; */
+  margin-bottom: 0;
+}
+.icons {
+  color: #BDB6AA;
+  /* border-top: #F6BD60; */
+  margin-top: 2px;
+  padding-top: 0px;
+  font-size: 18px;
+}
+.footer p {
+  /* color: #4A5043; */
+  margin-top: 0px;
+  font-size: 12px;
 }
 
 /* ----------- WORKPAGE ----------- */
@@ -138,7 +171,7 @@ html {
 .ProjectsGrid {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(385px, 1fr));
   /* padding: 3rem; */
   margin-top: 4rem;
   margin-bottom: 5rem;
@@ -152,6 +185,7 @@ img {
   height: 100%;
   object-fit: cover;
   overflow:hidden;
+  border-radius: 4px;
 }
 .Project {
   /* background-color: antiquewhite; */
@@ -175,7 +209,8 @@ img {
 .project-details p {
   margin-top: 1px;
   font-family: 'DM Sans', sans-serif;
-  font-size: 12px;
+  font-size: 13px;
+  color: #BDB6AA;
 }
 
 a {
@@ -195,6 +230,7 @@ a {
   margin-right: 3vh;
   color: #4A5043;
   font-family: 'DM Sans', sans-serif;
+  background-color: #FFFEFA;
 
   /* margin-bottom: 0; */
 }
@@ -209,11 +245,15 @@ a {
 }
 .header {
   margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .case-study-body p {
-  margin-top: 1.5vh;
+  /* margin-top: 0.5vh; */
+  margin-top: 0.5px;
   margin-bottom: 0;
+  padding-top: 0px;
+
 }
 
 .subheader {
@@ -224,7 +264,7 @@ a {
 }
 
 .subheader p {
-  margin-bottom: -1.1vh;
+  margin-bottom: -1.3vh;
   margin-left: 4.5vh;
 }
 

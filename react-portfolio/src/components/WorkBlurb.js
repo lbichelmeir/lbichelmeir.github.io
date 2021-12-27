@@ -12,6 +12,7 @@ function WorkBlurb() {
             </div>
             {/* <p> check out some of my work ⚡ </p> */}
             <button className="EmailButton">Email</button> <button className="ResumeButton">Resume</button>
+            {/* <a href="mailto:l.bichelmeir@gmail.com" className="EmailButton">Email</a> <button className="ResumeButton">Resume</button> */}
             {/* </p> */}
             </div>
         </div>

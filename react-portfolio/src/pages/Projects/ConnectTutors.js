@@ -7,7 +7,9 @@ function ConnectTutors() {
     return (
         <div className="case-study">
             <div className="case-study-image-div">
-                <img src ="/images/projects/ConnectTutor/ConnectTutorsTitle.svg" className="case-study-image" />
+                {/* <img src ="/images/projects/ConnectTutor/ConnectTutorsTitle2.svg" className="case-study-image" /> */}
+                <img src ="/images/projects/ConnectTutor/ConnectTutorsProjectTile.png" className="case-study-image" />
+
                 </div>
             <div className="project-overview">
                 <div>
@@ -159,9 +161,11 @@ function ConnectTutors() {
                     We redesigned the website to make it more user-friendly and easier to navigate based on usability 
                     testing and feedback from the client. Through this redesign, we achieved our goals. 
                 </p> 
-
-                <h4>Primary Goal: Increase in Student Registration</h4>
+                <br></br>
+                <p><b>Primary Goal: Increase in Student Registration</b></p>
                 <p>To achieve our primary goal, we did this in 2 ways:</p>
+
+                <br></br>
                 <p> <b> 1. Provide Access </b></p>
                 <p> We incorporated multiple points of access to the student registration form, including the following: </p>
                 <ul>
@@ -191,8 +195,9 @@ function ConnectTutors() {
                 <img src ="/images/projects/ConnectTutor/EstablishTrust.png" className="graphic"/>
                 </div>
 
-                <h4>Secondary Goal: Increase in Tutor Apps & Ease of Access to Training Materials</h4>
+                <p><b>Secondary Goal: Increase in Tutor Apps & Ease of Access to Training Materials</b></p>
                 <p>To increase tutor applications, we did this in 2 ways: </p>
+                <br></br>
                 <p> <b> 1. Provide Access to Application </b></p>
                 <p>We incorporated the tutor application within the website in Get Involved > Become a Tutor.</p>
                 <div className="graphic-div">   
@@ -206,8 +211,9 @@ function ConnectTutors() {
                 <img src ="/images/projects/ConnectTutor/LimitedAccess.png" className="graphic"/>
                 </div>
 
-                <h4>Extra Goal: Increase Monetary Donations</h4>
+                <p><b>Extra Goal: Increase Monetary Donations</b></p>
                 <p>To increase monetary donations, we did this in 2 ways:</p>
+                <br></br>
                 <p> <b> 1. Provide Access to Page </b></p>
                 <p> 
                     We created a designated ‘Donate’ page, accessible through the navigation bar.

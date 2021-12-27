@@ -8,7 +8,7 @@ function Project({img,title, description, link}) {
         <div className="Project">
             {/* <img src={require(img).default} alt="" width="100" height="50"/> */}
            <div>
-                <img src={img} width="50" height="50"/>
+                <img src={img}/>
             </div>
             <div className="project-details">
                 <h3>{title}</h3>

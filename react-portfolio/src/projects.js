@@ -2,14 +2,16 @@ export const projects = [
     {
         id: 1,
         image:"/images/sample.png",
-        title: "Redesigning Connect Tutors Website",
+        image:"/images/projects/ConnectTutor/ConnectTutorsProjectTile.png",
+        title: "Connect Tutors",
+        // title: "Redesigning Connect Tutors Website",
         description:"PRODUCT DESIGN • VOLUNTEER",
         link: "/ConnectTutor"
     
     },
     {
         id: 2,
-        image:"/images/sample.png",
+        image:"/images/projects/VocabMi/VocabMiProjectTile.png",
         title: "VocabMi - In Progress",
         description: "PASSION PROJECT",
         link: "/VocabMi"
