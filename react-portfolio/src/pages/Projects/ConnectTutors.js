@@ -8,7 +8,9 @@ function ConnectTutors() {
         <div className="case-study">
             <div className="case-study-image-div">
                 {/* <img src ="/images/projects/ConnectTutor/ConnectTutorsTitle2.svg" className="case-study-image" /> */}
-                <img src ="/images/projects/ConnectTutor/ConnectTutorsProjectTile.png" className="case-study-image" />
+                {/* <img src ="/images/projects/ConnectTutor/ConnectTutorsProjectTile.png" className="case-study-image" /> */}
+                <img src ="/images/projects/ConnectTutor/ConnectTutorsHeader.png" className="case-study-image" />
+
 
                 </div>
             <div className="project-overview">
@@ -183,11 +185,11 @@ function ConnectTutors() {
                     This includes the following sections: 
                 </p>
                 <ul>
-                    <li>Home > Testimonials</li>
-                    <li>About > What We Do</li>
-                    <li>About > FAQ</li>
-                    <li>About > Our Values</li>
-                    <li>About > The Team</li>
+                    <li>Home {'>'} Testimonials</li>
+                    <li>About {'>'} What We Do</li>
+                    <li>About {'>'} FAQ</li>
+                    <li>About {'>'} Our Values</li>
+                    <li>About {'>'} The Team</li>
                     <li>Contact</li>
                 </ul>
 
@@ -195,11 +197,11 @@ function ConnectTutors() {
                 <img src ="/images/projects/ConnectTutor/EstablishTrust.png" className="graphic"/>
                 </div>
 
-                <p><b>Secondary Goal: Increase in Tutor Apps & Ease of Access to Training Materials</b></p>
+                <p><b>Secondary Goal: Increase in Tutor Apps {'&'} Ease of Access to Training Materials</b></p>
                 <p>To increase tutor applications, we did this in 2 ways: </p>
                 <br></br>
                 <p> <b> 1. Provide Access to Application </b></p>
-                <p>We incorporated the tutor application within the website in Get Involved > Become a Tutor.</p>
+                <p>We incorporated the tutor application within the website in Get Involved {'>'} Become a Tutor.</p>
                 <div className="graphic-div">   
                 <img src ="/images/projects/ConnectTutor/TutorAccess.png" className="graphic"/>
                 </div>

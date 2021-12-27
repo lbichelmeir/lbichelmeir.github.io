@@ -4,7 +4,10 @@ function VocabMi() {
     return (
         <div className="case-study">
             <div className="case-study-image-div">
-                <img src ="/images/projects/ConnectTutor/ConnectTutorsTitle2.svg" className="case-study-image" />
+                {/* <img src ="/images/projects/ConnectTutor/ConnectTutorsTitle2.svg" className="case-study-image" /> */}
+                {/* <img src ="/images/projects/VocabMi/VocabMiProjectTile.png" className="case-study-image" /> */}
+                <img src ="/images/projects/VocabMi/VocabMiHeader.png" className="case-study-image" />
+                {/* /images/projects/VocabMi/VocabMiProjectTile.png */}
                 </div>
             <div className="project-overview">
                 <div>
@@ -25,7 +28,7 @@ function VocabMi() {
                         <b>TIMELINE:</b> Fall 2021 - <br></br>
                         {/* <b>TOOLS:</b> Figma <br></br> */}
                         <b>TEAM:</b> Myself <br></br>
-                        <b>TYPE:</b> Passion Project & Potential Startup Idea <br></br>
+                        <b>TYPE:</b> Passion Project {'&'} Potential Startup Idea <br></br>
                         {/* <b>CLIENT:</b> Connect Tutors (through Develop for Good) */}
                     </p>
 
