@@ -10,10 +10,11 @@ function ResumePage() {
                <div className="resume-blurb-text">
                 <p>
                     currently seeking summer 2022 ux design internships
-                {/* </p> */}
+                {/* </p> 👇🏻*/}
                 
                 <br></br>
-                <span>view my </span> <span className="yellow-text">resume </span> 
+                {/* IN THE FUTURE -- ADD MY UPDATED RESUME */}
+                <span>view my </span> <span className="yellow-text">resume ↯ </span> 
                 <span>| connect through </span><span><a href="mailto:l.bichelmeir@gmail.com" className="yellow-text">email</a></span>
                 </p>
                 </div>

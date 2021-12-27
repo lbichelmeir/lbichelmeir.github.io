@@ -29,7 +29,7 @@ function AboutPage() {
 
                     <h3 className="about-header">🎨 My Journey to UX Design</h3>
                     <p>
-                        I have always been into art and being creative. Growing up, I was always doodling or painting. 
+                        I have always been into art and being creative. Growing up, you could always find me doodling or painting. 
                         However, I then developed an interest in chemistry and physics, and decided I was going to study 
                         Materials Science. After my first year in college, I realized that this wasn’t for me and I was back 
                         to the drawing board. 
@@ -39,7 +39,7 @@ function AboutPage() {
                         whether it’s in designing or coding a new app, website, game, etc. I also was drawn to the 
                         endless opportunities in CS, within tech and in the intersection with tech. 
                         In particular, I’m interested in the intersection between design and technology, and so 
-                        I landed upon <b>UX Design</b>, where I’ll be able to combine my interests in design and innovation!
+                        I landed upon <b>UX Design</b>, where I’ll be able to combine my interests in design, technology and innovation!
                     </p>
 
                     <h3 className="about-header">🌿 What am I up to? </h3>

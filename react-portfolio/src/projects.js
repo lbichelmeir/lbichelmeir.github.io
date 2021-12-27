@@ -25,9 +25,9 @@ export const projects = [
     },
     {
         id: 4,
-        image:"/images/sample.png",
+        image:"/images/projects/DTC/DTCProjectTile.png",
         title: "DTC",
-        description: "CLASS PROJECT",
+        description: "CLASS PROJECT • SERVICE DESIGN",
         link: "/DTC"
     },
 ];

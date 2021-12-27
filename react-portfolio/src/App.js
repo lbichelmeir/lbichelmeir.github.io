@@ -22,8 +22,7 @@ import DTC from './pages/Projects/DTC'
 import Footer from './components/Footer';
 
 
-// CHANGE RESUME 4X - FOOTER, RESUME PAGE: BLURB & IFRAME, WORK BUTTONS
-// or -- lead resume in footer and resume button in work to resume page
+// link to RESUME 2X: ON RESUME PAGE -- IFRAME & BLURB
 function App() {
   return (
     <div className="App" >

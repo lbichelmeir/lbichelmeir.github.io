@@ -1,5 +1,5 @@
 import React from 'react'
-
+// COLOR: #E7EDFD
 function VocabMi() {
     return (
         <div className="case-study">
@@ -35,7 +35,7 @@ function VocabMi() {
                 </div>
             </div>
 
-            <div className="subheader">
+            <div className="blue-subheader">
                 <p> 01. OVERVIEW</p>
             </div>
 
@@ -47,7 +47,7 @@ function VocabMi() {
                 My solution is to create a tool that will help intermediate language learners retain their vocabulary and actively review it.
             </p>
 
-            <div className="subheader">
+            <div className="blue-subheader">
                 <p> 02. RESEARCH</p>
             </div>
 
@@ -76,7 +76,7 @@ function VocabMi() {
             
             {/* COMPETITIVE ANALYSIS GRAPHIC */}
 
-            <div className="subheader">
+            <div className="blue-subheader">
                 <p> 03. IDEATION</p>
             </div>
 

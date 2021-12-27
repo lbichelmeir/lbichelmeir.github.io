@@ -11,8 +11,8 @@ function Footer() {
         <div className="footer">
             <h3> - - Let's Connect - -</h3> 
             <div className="icons">
-            <a href="https://github.com/lbichelmeir" className="icons"><FaGithub/> </a>
-            <a href="https://www.linkedin.com/in/lauren-bichelmeir/" className="icons"><FaLinkedin/> </a>
+            <a href="https://github.com/lbichelmeir" target="_blank" className="icons"><FaGithub/> </a>
+            <a href="https://www.linkedin.com/in/lauren-bichelmeir/" target="_blank" className="icons"><FaLinkedin/> </a>
             <a href="mailto:l.bichelmeir@gmail.com" className="icons"><MdEmail/> </a>
             <Link to="/Resume" className="icons"><HiDocumentText/></Link>
            
