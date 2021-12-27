@@ -98,7 +98,7 @@ function ConnectTutors() {
 
                 <h3 className="header">User Personas & User Journey</h3>
                 <p>After identifying the key insights from our user interviews and empathy mapping, 
-                    we created 3 user personas and user journeys. 
+                    we created 3 user personas and user journey of a parent and student. 
                 </p>
 
                 <div className="personas-div">

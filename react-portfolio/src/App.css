@@ -333,3 +333,56 @@ a {
   /* height: 500px; */
   object-fit: cover
 }
+
+
+
+.about-div{
+  /* margin: 0 auto; */
+  margin-top: 10vh;
+  margin-left: 3vh;
+  margin-right: 3vh;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 3fr 5fr;
+  /* grid-template-columns: repeat(auto-fit, minmax(385px, 1fr)); */
+  
+
+}
+
+.about-pic {
+  /* max-width: 400px; */
+  /* height: 100%; */
+  /* object-fit: cover;  */
+  object-fit: contain;
+  /* position:relative; */
+  /* object-fit:inherit; */
+  /* margin: 10px 10px;  */
+  /* padding: 10px 10px; */
+  /* padding-right: 15px; */
+}
+
+.about-text {
+  margin-left: 20px;
+}
+.about-blurb {
+  /* max-width: 600px; */
+  margin: auto;
+  font-size: 13.5px;
+  background-color: #FBEAE5;
+  padding: 5px 12px;
+  border-radius: 10px;
+}
+
+.about-header {
+  font-family: 'Lora', serif;
+  font-weight: 500;
+  margin-bottom: 3px;
+
+}
+
+.about-body p, ul {
+  font-size: 15px;
+  margin-top: 0px;
+  /* padding-top: 0; */
+
+}
