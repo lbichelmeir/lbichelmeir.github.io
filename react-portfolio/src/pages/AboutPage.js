@@ -4,19 +4,22 @@ import { Link } from "react-router-dom";
 function AboutPage() {
     return (
         <div className="about-div">
+            
+        <div className="about-grid">
             <div> {/* IMAGE */}
                 <img src ="/images/ProfilePic.png" className="about-pic"/>
             </div>
             <div className="about-text"> {/* TEXT */}
                 <div className="about-blurb">
-                    <p>
-                        This Winter, I’ll be in San Francisco for the <b><u><a href="https://design.northwestern.edu/programs/bay-area-immersion/"> Bay Area Immersion Program</a></u></b> . 
-                        My cohort (a mixture of CS and Journalism students) and I will be taking 2 journalism classes,  
-                        <i> Intro to Data Journalism</i> and <i>Visual Storytelling for the Web</i>, and 2 design classes: 
-                        <i><b> UX Design</b></i> and <i><b>Bay Area Service Design</b></i>, where we will be partnering with a SF company!  
-                        I’m so excited! 
-                    </p>
-                </div>
+                        <p>
+                            This Winter, I’ll be in San Francisco for the <b><u><a href="https://design.northwestern.edu/programs/bay-area-immersion/"> Bay Area Immersion Program</a></u></b> . 
+                            My cohort (a mixture of CS and Journalism students) and I will be taking 2 journalism classes,  
+                            <i> Intro to Data Journalism</i> and <i>Visual Storytelling for the Web</i>, and 2 design classes: 
+                            <i><b> UX Design</b></i> and <i><b>Bay Area Service Design</b></i>, where we will be partnering with a SF company!  
+                            I’m so excited! 
+                        </p>
+                    </div>
+                
                 <div className="about-body">
                     <h3 className="about-header">🌻 hello, I'm Lauren Bichelmeir</h3>
                     <p>
@@ -79,6 +82,7 @@ function AboutPage() {
                 </div>
 
             </div>
+        </div>
         </div>
         
     )

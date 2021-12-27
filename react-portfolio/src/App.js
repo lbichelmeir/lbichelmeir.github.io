@@ -21,6 +21,9 @@ import KP2021 from './pages/Projects/KP2021';
 import DTC from './pages/Projects/DTC'
 import Footer from './components/Footer';
 
+
+// CHANGE RESUME 4X - FOOTER, RESUME PAGE: BLURB & IFRAME, WORK BUTTONS
+// or -- lead resume in footer and resume button in work to resume page
 function App() {
   return (
     <div className="App" >
