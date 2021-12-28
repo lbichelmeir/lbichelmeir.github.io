@@ -487,11 +487,6 @@ a {
     margin: 0 auto;
     text-align: center;
   }
-  .resume-blurb-text span {
-    /* display: block; */
-  }
-
-
 }
 .resume-blurb h1 {
   font-size: 35px;
