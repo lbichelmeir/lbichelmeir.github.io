@@ -26,7 +26,7 @@ export const projects = [
     {
         id: 4,
         image:"/images/projects/DTC/DTCProjectTile.png",
-        title: "DTC",
+        title: "The Angled Mouthstick",
         description: "CLASS PROJECT • SERVICE DESIGN",
         link: "/DTC"
     },
