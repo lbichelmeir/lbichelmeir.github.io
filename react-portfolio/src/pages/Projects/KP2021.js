@@ -35,7 +35,7 @@ function KP2021() {
                 </div>
             </div>
 
-            <div className="blue-subheader">
+            <div className="green-subheader">
                 <p> 01. OVERVIEW</p>
             </div>
 
@@ -78,7 +78,7 @@ function KP2021() {
             </p>
         
 
-            <div className="blue-subheader">
+            <div className="green-subheader">
                 <p> 02. RESEARCH</p>
             </div>
 
@@ -147,7 +147,7 @@ function KP2021() {
                 to create lists of your saved courses. 
 
                 </p>
-            <div className="blue-subheader">
+            <div className="green-subheader">
                 <p> 03. IDEATION</p>
             </div>
 
@@ -180,7 +180,7 @@ function KP2021() {
                 <img src ="/images/projects/Coursera/Paper.png" className="graphic"/>
                 </div>
             
-            <div className="blue-subheader">
+            <div className="green-subheader">
                 <p> 04. SOLUTION</p>
             </div>
 
@@ -274,7 +274,7 @@ function KP2021() {
 
 
 
-            <div className="blue-subheader">
+            <div className="green-subheader">
                 <p> 05. REFLECTION</p>
             </div>
             <h3 className="header">Next Steps</h3>

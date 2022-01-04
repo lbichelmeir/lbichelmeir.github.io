@@ -298,6 +298,16 @@ a {
   margin-left: 4.5vh;
 }
 
+.green-subheader {
+  margin-top: 8vh;
+  border-bottom: 1.5vh solid #DFF5F1;
+}
+.green-subheader p {
+  margin-bottom: -1.3vh;
+  margin-left: 4.5vh;
+}
+
+
 
 
 .h4 {
