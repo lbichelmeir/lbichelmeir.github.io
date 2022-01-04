@@ -10,13 +10,6 @@ export const projects = [
     
     },
     {
-        id: 2,
-        image:"/images/projects/VocabMi/VocabMiProjectTile.png",
-        title: "VocabMi - In Progress",
-        description: "PASSION PROJECT",
-        link: "/VocabMi"
-    },
-    {
         id: 3,
         image:"/images/projects/Coursera/CourseraProjectTile.png",
         title: "Kleiner Perkins 2021",
@@ -29,5 +22,12 @@ export const projects = [
         title: "The Angled Mouthstick",
         description: "CLASS PROJECT • SERVICE DESIGN",
         link: "/DTC"
+    },
+    {
+        id: 2,
+        image:"/images/projects/VocabMi/VocabMiProjectTile.png",
+        title: "VocabMi - In Progress",
+        description: "PASSION PROJECT",
+        link: "/VocabMi"
     },
 ];
