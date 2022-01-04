@@ -278,10 +278,29 @@ function KP2021() {
                 <p> 05. REFLECTION</p>
             </div>
             <h3 className="header">Next Steps</h3>
-            <p>Something</p>
+            <p>
+            <ul>
+            <li><b>Usability testing </b>- conduct usability testing to see if my new features are intuitive to use</li>
+            {/* <br></br> */}
+            {/* <br></br> */}
+            <li><b>More User Research</b> - interview Coursera users to gain a better understanding of their experience</li>
+            </ul>
+            </p>
 
             <h3 className="header">What I Learned</h3>
-            <p>Something</p>
+            <p>
+                When deciding what company to redesign, it was a lot easier for me 
+                to approach products that I have used because being a user myself 
+                enabled me to better relate and empathize with the users.  
+            </p>
+            <br></br>
+            <p>
+                It was also a new experience to redesign for an existing product/company 
+                and to make sure that my design and experience would be cohesive and 
+                intuitive with the existing app that Coursera has. It was an exciting 
+                challenge to design within Coursera's existing design and user flow! 
+
+            </p>
 
             
 
