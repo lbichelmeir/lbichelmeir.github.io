@@ -18,7 +18,7 @@ export const projects = [
     },
     {
         id: 3,
-        image:"/images/sample.png",
+        image:"/images/projects/Coursera/CourseraProjectTile.png",
         title: "Kleiner Perkins 2021",
         description: "DESIGN CHALLENGE",
         link: "/KP2021"

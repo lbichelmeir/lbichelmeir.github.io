@@ -253,7 +253,11 @@ a {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-
+.header-center {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-align: center;
+}
 .case-study-body p {
   /* margin-top: 0.5vh; */
   margin-top: 0.5px;
@@ -314,6 +318,7 @@ a {
   padding: 0 50px;
 }
 }
+
 .graphic-div {
   /* max-width: 600px; */
   margin: auto;
@@ -326,6 +331,7 @@ a {
   display: block;
   /* object-fit: cover; */
   padding: 0 10px;
+  border-radius: 20px;
 }
 .personas-div {
   /* display: flex; */
@@ -516,3 +522,44 @@ iframe {
   /* margin-left: 18vh; */
   
 }
+
+@media (max-width: 500px) {
+  .flow-div {
+  display: block;
+  }
+}
+
+.flow-div {
+  /* display: flex; */
+  margin: auto;
+  max-width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+
+}
+.flow-div-image {
+  max-width: 50%;
+  margin: auto;
+  /* margin: left; */
+  /* margin-left: 0px; */
+}
+.flow-div-text {
+  margin: auto;
+  /* margin-right: 0px; */
+  /* margin: right; */
+
+  /* max-width: 50%; */
+  /* object-position:bottom; */
+  /* text-align:right; */
+}
+
+/* 
+display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  column-gap: 6vh; */
+
+
+  .final-prototype {
+    max-width: 25%;
+    margin: auto;
+  }
