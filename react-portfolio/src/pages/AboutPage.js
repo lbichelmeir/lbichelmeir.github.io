@@ -72,10 +72,10 @@ function AboutPage() {
                             <li>🎨 Painting - with Gouache and Watercolor </li>
                             <li>📚 Reading  - I’m currently reading <i>The Design of Everyday Things</i></li>
                             <li>🎵 Playing the Ukulele - mastering <i>The Sound of Silence</i></li>
-                            <li>🥏 Playing Frisbee - with a friend or at Ultimate Frisbee practice</li>
                             <li>📷 Scrapbooking - I can’t wait to create my SF travel journal!</li>
                             <li>👾 Coding - I created this portfolio in <a href="https://github.com/lbichelmeir/react-portfolio"><u>React</u></a></li>
                             <li>🇩🇪 Learning German - weil ich halb deutsch bin :) </li>
+                            <li>🥏 Playing Frisbee - with a friend or at Ultimate Frisbee practice</li>
                         </ul>
                     </p>
 

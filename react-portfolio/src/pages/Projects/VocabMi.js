@@ -41,7 +41,28 @@ function VocabMi() {
 
             <div className="case-study-body">
             <h3 className="header">Problem</h3>
-                <p> TO BE WRITTEN </p>
+                <p> 
+                In 2020, I took a gap year to focus on learning German intensively. 
+                I began to realize that the biggest problem that my classmates and I 
+                faced with language learning was vocabulary: being able to build and then 
+                retain our vocabulary.
+                <br></br>
+                <br></br>
+                As one progresses in their language learning journey and advances from 
+                learning grammar, a lot of the learning comes from reading and listening 
+                comprehension - where one encounters so many new vocabulary words with 
+                each story/reading. I could learn around 100 new words from each story! 
+                A lot of readings were on specific topics, with specific vocabulary to learn. 
+                There seemed to be no easy way to keep track of all this vocabulary! I noticed 
+                that I wasn’t the only one facing this problem. My friends and I frequently had 
+                rant sessions complaining about the difficulties of learning German vocabulary! 
+                After a few too many rant sessions, I realized this was an actual issue that 
+                could be affecting not only me, but a lot of other language learners. 
+                To take this to the next step,. I wanted to see if other people (classmates 
+                from the German course and at Northwestern) faced this problem too. 
+
+
+                </p>
             <h3 className="header">Solution</h3>
             <p>
                 My solution is to create a tool that will help intermediate language learners retain their vocabulary and actively review it.
