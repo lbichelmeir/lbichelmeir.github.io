@@ -84,7 +84,7 @@ function KP2021() {
 
             <h3 className="header">User Research</h3>
                 <p> 
-                    I looked into reviews from the App Store to find out if other users 
+                    I asked some friends and looked into reviews from the App Store to find out if other users 
                     had the same issue as me and to see what other problems and pain 
                     points they had. I focused on pain points related to the design/UI 
                     as other common issues, such as sync problems between mobile 
