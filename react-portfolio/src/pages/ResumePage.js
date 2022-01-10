@@ -20,7 +20,7 @@ function ResumePage() {
                 </div>
             </div>
             <div className="iframe">
-            <iframe src="https://drive.google.com/file/d/1UxA8qMGzG0q2gVFQ28NUWm47JT3jILVV/preview" width="640" height="850" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/17XstPbEMXPU2HFfnrmwlY9KH0l9jo5ST/preview" width="640" height="850" allow="autoplay"></iframe>
             </div>
             {/* <GoogleDocsViewer
                 width="600px"

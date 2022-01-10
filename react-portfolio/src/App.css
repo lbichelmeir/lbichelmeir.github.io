@@ -50,14 +50,19 @@ html {
 
 .navlinks a:hover {
   border-bottom: 3px solid #fff3b0;
+  /* color: #fff3b0 */
 }
 .navlinks a.active {
-  border-bottom: 3px solid #FDCA40;
+  /* border-bottom: 3px solid #FDCA40; */
+  font-weight: 900;
+  /* color: #FDCA40; */
+  color: #F6BD60;
 }
 
-.navlinks .active:after {
+
+/* .navlinks .active:after {
   content: ".";
-}
+} */
 
 .navbar ul {
   list-style-type: none;

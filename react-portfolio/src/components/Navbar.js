@@ -1,22 +1,22 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import '../App.css';
 function Navbar() {
     return (
         <nav className="navbar">
             <div class="navname"> 
-                <p><Link to="/"> 🌻     Lauren Bichelmeir </Link></p>
+                <p><NavLink exact activeClassName="active" to="/"> 🌻     Lauren Bichelmeir </NavLink></p>
             </div>
             <div class="navlinks">
                 <ul>
                     <li>
-                        <Link to="/"> ⚡  work </Link>
+                        <NavLink exact activeClassName="active" to="/"> ⚡  work </NavLink>
+                    </li>
+                    <li> 
+                        <NavLink activeClassName="active" to="/About"> ✨   about </NavLink>
                     </li>
                     <li>
-                        <Link to="/About"> ✨   about </Link>
-                    </li>
-                    <li>
-                        <Link to="/Resume"> 💡 resume </Link>
+                        <NavLink activeClassName="active" to="/Resume"> 💡 resume </NavLink>
                     </li>
                 </ul>
             </div>
