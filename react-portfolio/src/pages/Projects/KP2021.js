@@ -301,13 +301,7 @@ function KP2021() {
                 challenge to design within Coursera's existing design and user flow! 
 
             </p>
-
             
-
-
-
-
-
             </div>
         </div>
     )

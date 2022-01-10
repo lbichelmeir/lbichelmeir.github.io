@@ -16,7 +16,8 @@ function Navbar() {
                         <NavLink activeClassName="active" to="/About"> ✨   about </NavLink>
                     </li>
                     <li>
-                        <NavLink activeClassName="active" to="/Resume"> 💡 resume </NavLink>
+                        {/* <NavLink activeClassName="active" to="/Resume"> 💡 resume </NavLink> */}
+                        <a href="https://drive.google.com/file/d/17XstPbEMXPU2HFfnrmwlY9KH0l9jo5ST/view?usp=sharing" target="_blank"> 💡 resume </a>
                     </li>
                 </ul>
             </div>

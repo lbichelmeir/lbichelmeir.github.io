@@ -76,9 +76,9 @@ html {
 .navbar a {
   text-decoration: none;
   font-size: 15px;
-  padding: 5px 18px;
+  /* padding: 5px 18px; */
   padding-right: 5px;
-  /* color: black; */
+  margin: 5px 10px;
   color: #4A5043;
 }
 
@@ -545,6 +545,8 @@ iframe {
   }
 }
 
+/* @media (min-width: 580px) { */
+
 .flow-div {
   /* display: flex; */
   margin: auto;
@@ -568,6 +570,7 @@ iframe {
   /* object-position:bottom; */
   /* text-align:right; */
 }
+/* } */
 
 /* 
 display: grid;
