@@ -49,7 +49,9 @@ html {
 }
 
 .navlinks a:hover {
-  border-bottom: 3px solid #fff3b0;
+  /* border-bottom: 3px solid #fff3b0; */
+  /* color: #F5CAC3; */
+  color: #E7A49A;
   /* color: #fff3b0 */
 }
 .navlinks a.active {
@@ -157,6 +159,10 @@ html {
   color:#F6BD60;
   font-weight: 700;
   /* font-style: ; */
+}
+
+.pink-text {
+  color: #E7A49A;
 }
 
 .WorkBlurb button {

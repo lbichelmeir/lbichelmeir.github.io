@@ -9,6 +9,7 @@ function WorkBlurb() {
                 <div className="WorkBlurbText-text">
             <p>Hi 🌻 I’m Lauren! Aspiring Product Designer </p>
             {/* <br></br> */}
+            {/* <p className="pink-text">seeking summer 2022 ux design internships </p> */}
             <p>seeking summer 2022 ux design internships </p>
             <span>check out some of my </span> <span className="yellow-text"><b>work </b>⚡</span>
             <br></br>

@@ -10,14 +10,14 @@ function Navbar() {
             <div class="navlinks">
                 <ul>
                     <li>
-                        <NavLink exact activeClassName="active" to="/"> ⚡  work </NavLink>
+                        <NavLink exact activeClassName="active" to="/"> ⚡   work </NavLink>
                     </li>
                     <li> 
                         <NavLink activeClassName="active" to="/About"> ✨   about </NavLink>
                     </li>
                     <li>
                         {/* <NavLink activeClassName="active" to="/Resume"> 💡 resume </NavLink> */}
-                        <a href="https://drive.google.com/file/d/17XstPbEMXPU2HFfnrmwlY9KH0l9jo5ST/view?usp=sharing" target="_blank"> 💡 resume </a>
+                        <a href="https://drive.google.com/file/d/1lCcxBDo7w0r69ARpHAVjmxRRQu0ZFKOl/view?usp=sharing" target="_blank"> 💡 resume </a>
                     </li>
                 </ul>
             </div>
